@@ -1,0 +1,138 @@
+.model-wrapper {
+    position: absolute;
+    left: 600px;
+    top: 120px;
+    width: 630px;
+    height: 400px;
+    background-color: #118efc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+
+.model-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.model-right .button{
+    
+    width: 20px;
+}
+
+
+    
+
+.model-left {
+    width: 310px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.model-left img {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 250px;
+    height: 200px;
+}
+
+.model-right {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    border-radius: 20px;
+   
+}
+
+.model-right p {
+    padding-left: 60px;
+    font-weight: bold;
+    color:#464646;
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-size: 15px;
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.model-right .model-input{
+    padding-left: 30px;
+}
+.model-input input{
+    border-radius: 8px;
+    height: 35px;
+    margin-top: 15px;
+    width:240px ;
+    border:2px solid #87c6fd;
+    
+   
+}
+
+.selectoption select{
+    padding-left: 30px;
+    border-radius: 8px;
+    height: 40px;
+    margin-top: 15px;
+    width:250px ;
+    border:2px solid #87c6fd;
+}
+
+.selectoption{
+    width:250px;
+    padding-left: 30px; 
+}
+
+.model-input input::placeholder {
+    color: #999;
+    font-size: 15px;
+    line-height: 1.5rem;
+    letter-spacing: .5px;
+    padding-left: 10px;
+  }
+
+  .selectoption select option {
+    color: #999;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+
+  .buttn{
+    
+    margin-top:15px ;
+    margin-left: 10px;
+    height:40px ;
+    display: inline-block;
+    
+    
+
+    text-align: center;
+    
+    
+
+  }
+
+  .buttn button{
+    
+    white-space: nowrap;
+    font-weight: 500;
+    border: 2px solid #ff8601 ;
+    font-family: inherit;
+    color: #fff;
+    border-radius: 8px;
+    line-height: 18px;
+    font-size: 13.8px;
+    width: 150px;
+    height:35px ;
+    background-color: #ff8601;
+    font-size: 15px;
+  } 
+
+  
